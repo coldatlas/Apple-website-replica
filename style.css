@@ -2,6 +2,42 @@
     margin: 0;
     padding: 0;
 }
+
+.nav-bar {
+  display: flex;
+  align-items: stretch;
+    border-radius: 3px;
+
+}
+
+.nav-bar button {
+  width: 70px;
+  background: linear-gradient(
+    to top,
+    #4F4F4F 0%,
+    #393939 50%,
+    #444444 50%,
+    #606060 100%
+  );
+color: white;
+height: 25px;
+}
+
+#searchbutton {
+background: linear-gradient(
+  to top,
+  #4F4F4F 0%,
+  #393939 50%,
+  #444444 50%,
+  #606060 100% );
+position: relative;
+}
+
+.fa-search {
+  position: absolute;
+  right: 200px;
+}
+
 header{
     background: url('./images/apple2.jpg');
     background-repeat: no-repeat;
@@ -11,9 +47,34 @@ header{
     display: flex;
     justify-content: center;
     flex-direction: column;
-       
+    width: 100%;
     }
-    header a{
-        padding-top: 20px;
-        
-    }
+
+header img{
+ width: 100%;
+ height: auto;
+}
+
+.offers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.offers img{
+  max-width: 300px;
+  height: auto;
+}
+
+
+
+.left-footer {
+  float: left;
+  margin-left: 15%;
+}
+
+.right-footer {
+  float: right;
+  margin-right: 15%;
+}

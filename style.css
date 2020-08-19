@@ -11,27 +11,28 @@
 
 .nav-bar button {
   width: 70px;
-  background: 
-  linear-gradient(
-    to top,
-    #4f4f4f 0%,
-    #393939 50%,
-    #444 50%,
-    #606060 100%
-  );
+  background:
+    linear-gradient(
+      to top,
+      #4f4f4f 0%,
+      #393939 50%,
+      #444 50%,
+      #606060 100%
+    );
   color: white;
   height: 25px;
 }
 
 #searchbutton {
-  background: 
-  linear-gradient(
-    to top,
-    #4f4f4f 0%,
-    #393939 50%,
-    #444 50%,
-    #606060 100%
-  );
+  background:
+    linear-gradient(
+      to top,
+      #4f4f4f 0%,
+      #393939 50%,
+      #444 50%,
+      #606060 100%
+    );
+
   position: relative;
 }
 

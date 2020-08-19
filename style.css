@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: url('/images/apple2.jpg');
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-size: 100% auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+       
+    }
+    header a{
+        padding-top: 20px;
+        
+    }

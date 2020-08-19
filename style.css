@@ -3,7 +3,7 @@
     padding: 0;
 }
 header{
-    background: url('/images/apple2.jpg');
+    background: url('./images/apple2.jpg');
     background-repeat: no-repeat;
     min-height: 500px;
     background-size: 100% auto;

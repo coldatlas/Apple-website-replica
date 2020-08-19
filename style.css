@@ -11,11 +11,12 @@
 
 .nav-bar button {
   width: 70px;
-  background: linear-gradient(
+  background: 
+  linear-gradient(
     to top,
     #4f4f4f 0%,
     #393939 50%,
-    #444444 50%,
+    #444 50%,
     #606060 100%
   );
   color: white;
@@ -23,11 +24,12 @@
 }
 
 #searchbutton {
-  background: linear-gradient(
+  background: 
+  linear-gradient(
     to top,
     #4f4f4f 0%,
     #393939 50%,
-    #444444 50%,
+    #444 50%,
     #606060 100%
   );
   position: relative;
@@ -80,6 +82,7 @@ header img {
   margin-right: 12%;
   color: grey;
 }
+
 footer a {
   text-decoration: none;
   color: #6f93d0;

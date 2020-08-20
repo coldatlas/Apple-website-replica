@@ -3,6 +3,9 @@
 > # Apple Home page clone
 >
 > This is a replica of a the previous Apple home page. The page is semi responsive.
+ A CSS project for Microverse.
+ Made using float - flex box - background image - color gradients.
+ Our Fourth Project in Microverse (Nick - Mina) Main curriculum.
 
 ![screenshot](./images/screenshot.png)
 
@@ -22,9 +25,8 @@ Download or clone the repository and open with any text editor.
 
 👤 **Nick Kuria**
 
-- Github: [@githubhandle](https://github.com/Nkuria)
+- Github: [@nkuria](https://github.com/Nkuria)
 
 👤 **Mina Ibrahim**
 
-- Github: [@githubhandle](https://github.com/coldatlas)
-
+- Github: [@coldatlas](https://github.com/coldatlas)

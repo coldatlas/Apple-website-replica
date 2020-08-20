@@ -7,9 +7,15 @@
   display: flex;
   align-items: stretch;
   border-radius: 3px;
+  text-align: center;
 }
 
-.nav-bar button {
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-bar div {
   width: 70px;
   background:
     linear-gradient(
@@ -21,6 +27,8 @@
     );
   color: white;
   height: 25px;
+  border-right-style: solid;
+  border-right-color: grey;
 }
 
 #searchbutton {
@@ -32,7 +40,7 @@
       #444 50%,
       #606060 100%
     );
-  height: 20px;  
+  height: 20px;
 }
 
 .search {

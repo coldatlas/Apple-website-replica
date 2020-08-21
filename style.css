@@ -105,13 +105,11 @@ header img {
   align-items: stretch;
   flex-wrap: nowrap;
   margin-top: 3px;
-  gap: 3px;
 }
 
 .offers img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
-
 }
 
 .offers a {

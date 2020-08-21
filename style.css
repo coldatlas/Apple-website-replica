@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: stretch;
+  border-radius: 3px;
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #6f93d0;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 50px;
+  font-weight: lighter;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-bar div {
+  width: 100px;
+  background:
+    linear-gradient(
+      to top,
+      #4f4f4f 0%,
+      #393939 50%,
+      #444 50%,
+      #606060 100%
+    );
+  color: white;
+  height: 25px;
+  border-right-style: solid;
+  border-right-color: grey;
+}
+
+#searchbutton {
+  background:
+    linear-gradient(
+      to top,
+      #4f4f4f 0%,
+      #393939 50%,
+      #444 50%,
+      #606060 100%
+    );
+  height: 75%;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  width: 80%;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+}
+
+.search {
+  position: relative;
+  width: 900px;
+  height: 100%;
+}
+
+.fa-search {
+  position: absolute;
+  left: 5px;
+  bottom: 3px;
+  color: white;
+}
+
+header {
+  background: url("./images/apple2.jpg");
+  background-repeat: no-repeat;
+  min-height: 500px;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+header img {
+  width: 100%;
+  height: auto;
+}
+
+.offers {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  margin-top: 3px;
+}
+
+.offers img {
+  width: 100%;
+  height: auto;
+}
+
+.offers a {
+  flex: 1;
+}
+
+footer {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.left-footer {
+  float: left;
+  margin-left: 4%;
+  color: gray;
+  padding-right: 10px;
+}
+
+.right-footer {
+  float: right;
+  margin-right: 4%;
+  color: grey;
+  padding-left: 10px;
+}
+
+.right-footer a {
+  border-right-style: solid;
+  border-right-color: grey;
+  border-right-width: 1px;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+.termsofuse {
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: grey;
+  padding-right: 3px;
+}
+
+.privacypolicy {
+  padding-left: 5px;
+}
+
+header h3 {
+  text-align: center;
+}
